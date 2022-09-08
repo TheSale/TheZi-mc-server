@@ -1,0 +1,55 @@
+Debug: false
+Config:
+  Check-for-Updates: true
+  Prefix: '&bReal&9Scoreboard &7| &r'
+  Reloaded: '&fThe config has been &areloaded&f.'
+  Use-Placeholders-In-Scoreboard-Titles: false
+  RealScoreboard-Disabled-By-Default: false
+  Hours:
+    Formatting: 'HH:mm:ss'
+    Offset: 0
+  Messages:
+    Scoreboard-Toggle:
+      'ON': '&fScoreboard turned &aON&f.'
+      'OFF': '&fScoreboard turned &cOFF&f.'
+  Animations:
+    Title-Delay: 15
+    Loop-Delay: 20
+  Scoreboard-Refresh: 10
+  Disabled-Worlds:
+    - testWorld
+    - ExampleWorld2
+  Bypass-Worlds:
+    - skywarsLobby
+  Scoreboard:
+    world:
+      default:
+        Switch-Timer: 35
+        Boards:
+          Board2:
+            Title:
+              - '&e&kT'
+              - '&e&kTh'
+              - "&e&kThe"
+              - '&e&kThe&a&kZ'
+              - '&e&kThe&a&kZi'
+              - '&eT&e&khe&a&kZi'
+              - '&eTh&e&ke&a&kZi'
+              - '&eThe&a&kZi'
+              - '&eThe&aZ&a&ka'
+              - '&eThe&aZi'
+            Lines:
+              - '&6Rank: %vault_ranks%'
+              - '      &3Island '
+              - '      level %iridiumskyblock_island_level%'
+              - ' &2island xp: &9%iridiumskyblock_island_experience%&a/&4%iridiumskyblock_island_experience_required%'
+              - ' &aNovac: %iridiumskyblock_island_bank_money%'
+              - ' &bCristali: %iridiumskyblock_island_bank_crystals%'
+              - '&5Is &5Value: &5%iridiumskyblock_island_value%€'
+              - '&aNovcanik: %vault_eco_balance_formatted%'
+              - '%Blank%'
+              - ' &7Statistika Igraca'
+              - '  Mob Ubistva: %mobkills%'
+              - '  Umiranje: %deaths%'
+              - '  Skokovi: %jumps%'
+Version: 12
