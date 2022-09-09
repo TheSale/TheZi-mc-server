@@ -1,0 +1,79 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansions, see here for more information: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Pomoc
+
+# Book's title
+title: TheZi Trovo
+
+# Book's author
+author: TheZix
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Dobrodosli na Zi-block
+- SkyBlock koji je na visem nivou
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: 'bookpomoc'
+
+# For the placeholders to work correctly
+# you have to download the Vault plugin:
+# https://www.spigotmc.org/resources/vault.34315/
+# and the Player and Vault expansions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload
+pages:
+  '1':
+  - '<gold><hover:show_text:"TheZi">Dodjite na stream da se druzimo</hover:show_text><gold>'
+  - ''
+  - '<blue><click:open_url:https://trovo.live/s/TheZi>Kliknite ovde da dodjete na moj kanal</click><blue>'
+  - ''
+  '2':
+  - 'Kreiranje SkyBlocka'
+  - ''
+  - '-Komanda <dark_green><hover:show_text:Island><click:run_command:/island>/island<reset><black> ce vam sluziti za kreiranje islanda na pocetku, a i za pristup island menija u daljem igranju'
+  - '-Za pristup prodavnici komanda <dark_green><hover:show_text:Prodavnica><click:run_command:/is shop>/is shop<reset><black>'
+  - 'Nagrade od questova i misija preuzimate preko <dark_green><hover:show_text:Rewards><click:run_command:/is rewards>/is rewards<reset><black>'
+  '3':
+  - 'Skills'
+  - ''
+  - '- Sa svim toolovima i weaponima imate aktivaciju skila na desni klik (a na neke levi klik)'
+  - '- Skillove koje dobijate od majning, farmanja, itd, mozete pogledati na <dark_green><hover:show_text:Skills><click:run_command:/frpg>/frpg<reset><black>'
+  '4':
+  - 'Popravka'
+  - 'Na ovom serveru se alati popravljaju i upgreaduju (upgrade na sledecoj strani)'
+  - 'Jednostavno stavite materijal na item'
+  - 'Drveni alat - wood planks'
+  - 'Od Stone - Cobbleston'
+  - 'Iron alat - iron ingot'
+  - 'Diamond i netherite koriste diamonds i netherite ingoti'
+  '5':
+  - 'Upgrade'
+  - 'WOOD>STONE>IRON'
+  - 'IRON>DIAMOND>NETHERITE'
+  - 'Na anvilu mozete unaprediti sve alate, weapone i armore'
+  - 'Stavite item i isti broj materijala za upgrade i to je to'
+  - 'Primer za pick trebaju 3 materijala, a za chest plate 8 materijala'
+  '6':
+  - 'Modifikacije'
+  - ''
+  - 'Da vidite modifikatore kucajte <dark_green><hover:show_text:Modifikatori><click:run_command:/mt modifiers>/mt modifiers<reset><black>'
+  - 'Neki modifikatori se kraftaju u crafting table'
+  - 'A neki se kliknu desnim klikom na bookshelf'
+  - 'Ali svaki modifikator se  postavlja preko anvila'
+  '7':
+  - 'Veliki chestovi'
+  - ''
+  - 'Deep storage unit - DSU'
+  - 'Komandom <dark_green><hover:show_text:Crafting table za DSU sistem><click:run_command:/crapi workbench>/crapi workbench<reset><black> otvarate recept kako napraviti crafting table za DSU stvari'
+  - 'Recepti za sve se nalaze na komandi <dark_green><hover:show_text:Recepti za DSU><click:run_command:/crapi book>/crapi book<reset><black>'
